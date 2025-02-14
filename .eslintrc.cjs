@@ -10,6 +10,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   parserOptions: {
+    rules: [
+      semi: ['never'],
+    ],
     parser: {
       js: 'espree',
       jsx: 'espree',
